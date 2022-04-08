@@ -1,0 +1,9 @@
+{
+	"balance": "//span[contains(text(), '残高')]/following::span[1]",
+	"transaction_fee": "//span[contains(text(), '取引料金')]/following::span[1]",
+	"final_deposit_amt": "//span[contains(text(), 'I8N.AFTER_TRANSACTION_FINAL_DEPOSIT_KEY')]/following::span[1]",
+	"enter_amt": "//input[contains(text(),'')]",
+	"deposit_btn": "//button[contains(text(),'Deposit')]",
+	"final_withdraw_amt": "//span[contains(text(), 'I8N.AFTER_TRANSACTION_FINAL_WITHDRAWAL_KEY')]/following::span[1]",
+	"withdraw_btn": "//button[contains(text(),'Withdraw')]"
+}

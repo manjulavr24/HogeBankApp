@@ -1,0 +1,9 @@
+{
+	"deposit": "//a[contains(text(), 'デポジット')]",
+	"withdraw": "//a[contains(text(),'引き出す')]",
+	"user": "//th[@colspan='2']",
+	"last_update": "//td[@colspan='2']",
+	"balance": "//td[contains(text(), 'Balance')]/following::td[1]",
+	"transaction": "//td//table[@class='t']",
+	"logout": "//button[contains(text(),'Logout')]"
+}

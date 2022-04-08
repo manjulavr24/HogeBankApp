@@ -1,0 +1,9 @@
+{
+	"username_txtbox": "//input[1]",
+	"password_txtbox": "//input[@type='password']",
+	"signup": "//button[contains(text(), 'SIGNUP')]",
+	"login": "//button[contains(text(), 'LOGIN')]",
+	"logout": "//button[contains(text(), 'Logout')]",
+	"signup_error": "//span[@color='red']",
+	"login_error": "//span[contains(text(), '')]/following::br"
+}
